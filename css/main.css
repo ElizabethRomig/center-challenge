@@ -97,34 +97,36 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+  background: url(../img/bkgd-me.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
 
 body {
   height: 100%;
+  display: flex;
 }
 
 .wrapper {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
+  padding: 30px;
   height: 100%;
   width: 100%;
 }
 
 #content {
   align-items: center;
-  background: #222;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  background: rgba(220, 99, 170, 0.612);
+  color: navy;
   display: flex;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1.25em;
   justify-content: center;
+  text-align: justify;
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
@@ -134,6 +136,37 @@ body {
 
 #content p span {
   font-family: "Lora", sans-serif;
+}
+
+.credits {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+#link {
+  align-items: center;
+  background: rgba(91, 226, 241, 0.68);
+  color: rgb(211, 8, 174);
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  justify-content: center;
+  text-align: justify;
+  line-height: 1.5em;
+  border-radius: 10px;
+  padding: 0px 30px;
+  width: 300px;
+  height: 300px;
+}
+
+#link a {
+  color: navy;
 }
 
 /* ==========================================================================
